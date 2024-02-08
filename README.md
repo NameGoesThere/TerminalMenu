@@ -19,7 +19,7 @@ int main(int argc, char **args)
     values[4] = "Option 2";
     values[5] = "Option 3";
     int outputs[] = {0, 1, 2, 3, 4, 5}; // Possible return values
-    char *out = values[menu(title, values, outputs, 6)]; // Gets output
+    char *out = values[menu(title, values, outputs, 6)]; // Shows menu and gets user input
     printf("\e[1;1H\e[2J"); // Clears console
     printf("You selected: %s!", out);
     return 0;
