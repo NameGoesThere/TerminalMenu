@@ -1,6 +1,6 @@
 # TerminalMenu
 A simple terminal selection menu implemented in C
-
+Works on Mac, Linux, and Windows (correct me if im wrong)
 ### Example:
 ```C
 #include <stdio.h>
