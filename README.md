@@ -2,6 +2,8 @@
 A simple terminal selection menu implemented in C
 
 Works on Mac, Linux, and Windows (correct me if im wrong)
+
+Oh no conio.h is deprecated
 ### Example:
 ```C
 #include <stdio.h>
